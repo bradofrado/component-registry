@@ -123,6 +123,9 @@
     "dependencies": [
       "@radix-ui/react-slot"
     ],
+    "registryDependencies": [
+      "spinner"
+    ],
     "files": [
       {
         "path": "ui/button.tsx",
@@ -597,6 +600,16 @@
     "files": [
       {
         "path": "ui/sonner.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "name": "spinner",
+    "type": "registry:ui",
+    "files": [
+      {
+        "path": "ui/spinner.tsx",
         "type": "registry:ui"
       }
     ]

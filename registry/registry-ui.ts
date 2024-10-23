@@ -68,6 +68,7 @@ export const ui: Registry = [
     name: "button",
     type: "registry:ui",
     dependencies: ["@radix-ui/react-slot"],
+    registryDependencies: ["spinner"],
     files: ["ui/button.tsx"],
   },
   {
@@ -318,6 +319,11 @@ export const ui: Registry = [
     type: "registry:ui",
     dependencies: ["sonner", "next-themes"],
     files: ["ui/sonner.tsx"],
+  },
+  {
+    name: "spinner",
+    type: "registry:ui",
+    files: ["ui/spinner.tsx"],
   },
   {
     name: "switch",
