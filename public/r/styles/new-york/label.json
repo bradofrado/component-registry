@@ -2,7 +2,8 @@
   "name": "label",
   "type": "registry:ui",
   "dependencies": [
-    "@radix-ui/react-label"
+    "@radix-ui/react-label",
+    "@heroicons/react"
   ],
   "files": [
     {
